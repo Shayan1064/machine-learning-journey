@@ -83,3 +83,9 @@
 # print(type(number1))
 # number2=float(number)
 # print(type(number2))
+
+length=float(input("Enter length: "))
+width=float(input("Enter width: "))
+
+area=(length*width)
+print("Area: ",area)
