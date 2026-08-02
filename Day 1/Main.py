@@ -89,3 +89,64 @@ width=float(input("Enter width: "))
 
 area=(length*width)
 print("Area: ",area)
+
+sum=0
+for i in range(1,11):
+    sum+=i
+print(sum)
+
+def cal_avg(a,b,c):
+    sum=a+b+c
+    return sum/3
+
+num1=int(input("Enter Number1: "))
+num2=int(input("Enter Number2: "))
+num3=int(input("Enter Number3: "))
+print("The Avg of three numbers are: ",cal_avg(num1,num2,num3))
+
+avg=lambda a,b: (a+b)/2
+print(avg(9,18))
+
+
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact*=i
+    return fact
+
+n=int(input("Enter Number: "))
+print("The value is: ",factorial(n))
+
+salary=int(input("Enter Your Salary: "))
+
+if salary >0 and salary<30000:
+     tax_rate=5
+elif salary>30000 and salary<50000:
+    tax_rate=15
+else:
+    tax_rate=15
+
+tax=(salary*tax_rate)/100
+
+final_salary=salary-tax
+
+print("Salary: ",salary)
+print("Tax Rate: ",tax_rate)
+print("Tax: ",tax)
+print("Final Salary: ",final_salary)
+
+
+import random
+
+secret_number = random.randint(1, 100)
+
+while True:
+    guess=int(input("Enter Number: "))
+    if guess > secret_number:
+        print("High")
+    elif guess < secret_number:
+        print("Low")
+    else:
+        print("Correct!...")
+        break
+
