@@ -27,3 +27,13 @@ for i in range(len(marks)):
         print(f"{target} is stored at index {i}")
         break
 
+info={
+    "Name":"Shayan Hassan",
+    "Age":23,
+    "Location":"Swabi"
+}
+
+info.update({
+    "Email":"shayanhassan059@gmail.com"
+})
+print(info)
