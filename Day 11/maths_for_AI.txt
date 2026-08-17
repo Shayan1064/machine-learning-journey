@@ -16,3 +16,69 @@ Addition Rule:
     (2): NME=> PUB=P(A)+ P(B) - (PnB)
 
 Conditional Probablity: Probablity of B occure giving in the probablity of A is already happened
+
+1. Mean
+
+Definition: The average of all values.
+
+Example:
+Marks = 10, 20, 30
+Mean = (10 + 20 + 30) / 3 = 20
+
+2. Median
+
+Definition: The middle value after arranging data in order.
+
+Example:
+2, 4, 6, 8, 10 → Median = 6
+
+3. Mode
+
+Definition: The value that occurs most frequently.
+
+Example:
+2, 3, 3, 4, 5 → Mode = 3
+
+4. Bayes' Theorem
+
+Definition: A method for finding the probability of an event using new evidence.
+
+Example:
+A medical test is positive. Bayes' theorem helps calculate the probability that the person actually has the disease.
+
+5. Binomial Distribution
+
+Definition: A distribution used when there are a fixed number of trials with two possible outcomes.
+
+Example:
+Flip a coin 10 times → Head or Tail.
+We can calculate the probability of getting exactly 6 Heads.
+
+6. Normal Distribution
+
+Definition: A bell-shaped, symmetric probability distribution where most values are around the mean.
+
+Example:
+Students' heights may approximately follow a normal distribution: most students have average heights, while very short/tall students are fewer.
+
+7. Uniform Distribution
+
+Definition: A distribution where all possible outcomes have equal probability.
+
+Example:
+A fair dice:
+
+1 → 1/6
+2 → 1/6
+3 → 1/6
+4 → 1/6
+5 → 1/6
+6 → 1/6
+Quick memory trick
+Mean     → Average
+Median   → Middle
+Mode     → Most frequent
+Bayes    → Update probability using evidence
+Binomial → Fixed trials + 2 outcomes
+Normal   → Bell-shaped
+Uniform  → Equal probability
