@@ -1,0 +1,18 @@
+Probabilty_section
+    Sample: All possible outcomes
+    Event: A subset of outcomes
+    P(E): number of favourable outcomes/total outcomes
+
+(PnB): intersection
+(PuB): Union
+
+Mutually exlusive: Two events not occure at same time
+independent: One event cant affect other One
+dependent: one event can affact other one
+
+Complementry Rule: P(A)=1-P(B)
+Addition Rule:
+    (1): ME=>  PUB=P(A)+ P(B)
+    (2): NME=> PUB=P(A)+ P(B) - (PnB)
+
+Conditional Probablity: Probablity of B occure giving in the probablity of A is already happened
