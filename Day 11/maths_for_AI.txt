@@ -82,3 +82,271 @@ Bayes    → Update probability using evidence
 Binomial → Fixed trials + 2 outcomes
 Normal   → Bell-shaped
 Uniform  → Equal probability
+
+1. Introduction to Linear Algebra
+
+Definition: The study of vectors, matrices, and operations on them.
+
+Example:
+A student's features can be represented as:
+
+[Age, Income, Score]=[20,50000,85]
+2. Straight Lines
+
+Definition: A line is a set of points following a linear relationship.
+
+Example:
+
+y=2x+1
+
+If x=2:
+
+y=5
+3. Distance Between 2 Points
+
+Definition: Measures the straight-line distance between two points.
+
+Formula:
+
+d=
+(x
+2
+	​
+
+−x
+1
+	​
+
+)
+2
++(y
+2
+	​
+
+−y
+1
+	​
+
+)
+2
+	​
+
+
+Example: Points (1,2) and (4,6):
+
+d=
+3
+2
++4
+2
+	​
+
+=5
+4. Parallel & Perpendicular Lines
+
+Parallel: Lines that never meet and have the same slope.
+
+Example:
+
+y=2x+1
+y=2x+5
+
+Both have slope 2.
+
+Perpendicular: Lines that meet at 90°.
+
+Example:
+
+y=2x+1
+
+and
+
+y=−
+2
+1
+	​
+
+x+3
+5. Distance Between Parallel Lines
+
+Definition: The shortest distance between two parallel lines.
+
+Example:
+
+y=2x+1
+
+and
+
+y=2x+5
+
+The distance is the perpendicular distance between them.
+
+6. Vectors
+
+Definition: A vector represents a quantity with direction and magnitude.
+
+Example:
+
+v=[3,4]
+
+Its magnitude is:
+
+∣v∣=
+3
+2
++4
+2
+	​
+
+=5
+
+Vectors are very important in ML because data points and features can be represented as vectors.
+
+7. Vector Addition
+
+Definition: Add corresponding elements of two vectors.
+
+Example:
+
+[1,2]+[3,4]=[4,6]
+8. Scalar Multiplication
+
+Definition: Multiplying every element of a vector by a number (scalar).
+
+Example:
+
+3[2,4]=[6,12]
+9. Dot Product ⭐
+
+Definition: Multiply corresponding elements and add the results.
+
+Example:
+
+[1,2]⋅[3,4]
+=(1)(3)+(2)(4)=11
+
+Used heavily in ML and neural networks.
+
+10. Cross Product
+
+Definition: Produces a vector perpendicular to two 3D vectors.
+
+Example:
+
+[1,0,0]×[0,1,0]=[0,0,1]
+
+Mostly important in 3D geometry, physics and computer graphics; less important for basic ML.
+
+11. Matrix
+
+Definition: A rectangular arrangement of numbers in rows and columns.
+
+Example:
+
+A=[
+1
+3
+	​
+
+2
+4
+	​
+
+]
+
+Matrices are extremely important in ML.
+
+12. Operations on Matrices
+
+Definition: Mathematical operations performed on matrices.
+
+Common operations:
+
+Addition
+Subtraction
+Multiplication
+Transpose
+
+Example:
+
+[
+1
+3
+	​
+
+2
+4
+	​
+
+]+[
+5
+7
+	​
+
+6
+8
+	​
+
+]=[
+6
+10
+	​
+
+8
+12
+	​
+
+]
+13. Determinant
+
+Definition: A single number calculated from a square matrix that tells us important properties about the matrix.
+
+For:
+
+A=[
+2
+1
+	​
+
+3
+4
+	​
+
+]
+det(A)=(2)(4)−(3)(1)=5
+14. Eigenvectors & Eigenvalues ⭐⭐⭐⭐⭐
+
+Eigenvector: A special vector whose direction doesn't change when a matrix transforms it.
+
+Eigenvalue: The number that tells how much the eigenvector is scaled.
+
+Simple idea:
+
+Av=λv
+
+Where:
+
+A = matrix
+v = eigenvector
+λ = eigenvalue
+
+Example:
+
+If:
+
+Av=3v
+
+then the eigenvalue is 3 — the matrix has scaled that eigenvector by 3.
+
+Very important for PCA and dimensionality reduction.
+
+🧠 Quick ML priority
+Vectors              ⭐⭐⭐⭐⭐
+Vector Addition      ⭐⭐⭐
+Scalar Multiplication⭐⭐⭐
+Dot Product          ⭐⭐⭐⭐⭐
+Matrices             ⭐⭐⭐⭐⭐
+Matrix Operations    ⭐⭐⭐⭐⭐
+Determinants         ⭐⭐⭐
+Eigenvalues          ⭐⭐⭐⭐⭐
+Eigenvectors         ⭐⭐⭐⭐⭐
