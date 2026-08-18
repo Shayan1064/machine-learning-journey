@@ -350,3 +350,134 @@ Matrix Operations    ⭐⭐⭐⭐⭐
 Determinants         ⭐⭐⭐
 Eigenvalues          ⭐⭐⭐⭐⭐
 Eigenvectors         ⭐⭐⭐⭐⭐
+
+1. Calculus
+
+Definition: Calculus is the study of change and how quantities accumulate.
+
+It mainly has:
+
+Derivative → measures rate of change/slope.
+Integral → measures accumulation/area.
+
+Example:
+If distance is changing with time, calculus can tell us the speed at a particular moment.
+
+2. Function
+
+Definition: A function is a rule that takes an input and produces an output.
+
+Example:
+
+f(x)=2x+1
+
+If input x=3:
+
+f(3)=2(3)+1=7
+
+So:
+
+Input → Function → Output
+  3   → 2x+1   → 7
+3. Domain
+
+Definition: The domain is the set of all possible input values a function can accept.
+
+Example:
+
+f(x)=x
+2
+
+You can put any real number into it:
+
+Domain = all real numbers
+4. Range
+
+Definition: The range is the set of all possible output values.
+
+For:
+
+f(x)=x
+2
+
+The output can never be negative.
+
+Range = 0 or greater
+
+Example:
+
+x = -2 → f(x) = 4
+x =  0 → f(x) = 0
+x =  3 → f(x) = 9
+5. Scalar
+
+Definition: A scalar is a single number.
+
+Examples:
+
+2
+5
+-3
+0.5
+6. Scalar Multiplication
+
+Definition: Multiplying every element of a vector or matrix by a single number (scalar).
+
+Example:
+
+3
+	​
+
+2
+4
+5
+	​
+
+	​
+
+=
+	​
+
+6
+12
+15
+	​
+
+	​
+
+
+Here:
+
+3 → scalar
+[2,4,5] → vector
+[6,12,15] → result
+7. Scalar Multiplication Input
+
+If someone says "input to scalar multiplication", it simply means the two things you provide:
+
+Scalar + Vector/Matrix → Result
+
+Example:
+
+Input:
+Scalar = 2
+Vector = [3, 4]
+
+
+        ↓
+
+
+2 × [3, 4]
+
+
+        ↓
+
+
+Output = [6, 8]
+Easy way to remember
+Calculus → Study of change
+Function  → Input → Output
+Domain    → Possible inputs
+Range     → Possible outputs
+Scalar    → Single number
+Scalar multiplication → Scalar × Vector/Matrix
