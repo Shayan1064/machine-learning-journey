@@ -1,0 +1,106 @@
+product_id,product_name,category,subcategory,price,cost,stock,rating,supplier
+P0001, Men Max 1 ,CLOTHING,MEN,135747.02,111221.97,233,3.4,stylehub
+P0002, Mobile Elite 2 ,ELECTRONICS,mobile,74822.95,60578.82,32,,global traders
+P0003,Technology Plus 3,Books,TECHNOLOGY,48973.12,43543.66,-1,4.3,homemart
+P0004,laptop plus 4,ELECTRONICS,Laptop,50657.81,25548.53,212,1.7,BEAUTYPLUS
+P0005,Cricket Pro 5,sports,CRICKET,66079.85,57261.76,68,1.4,GLOBAL TRADERS
+P0006,MEN PRO 6,Clothing,MEN,132004.23,64196.98,91,10.0,Sportzone
+P0007,Appliances Classic 7,Home,Appliances,0.0,56452.41,267,2.8,Homemart
+P0008,men max 8,CLOTHING,Men,89642.66,69270.42,154,2.4,techworld
+P0009,CRICKET MAX 9,Sports,Cricket,29189.48,26094.57,185,4.5,Homemart
+P0010,kitchen plus 10,home,kitchen,41825.77,22467.7,242,3.0,bookhouse
+P0011,skincare elite 11,Beauty,SKINCARE,8577.13,5265.39,222,10.0,pak suppliers
+P0012,MOBILE PLUS 12,electronics,Mobile,111192.32,96313.41,80,,PAK SUPPLIERS
+P0013,fitness x 13,Sports,FITNESS,11093.5,-50.0,296,2.3,homemart
+P0014,Makeup Elite 14,beauty,MAKEUP,34894.45,17431.86,-10,1.9,Global Traders
+P0015,shoes x 15,Clothing,Shoes,133759.09,64617.46,27,4.6,bookhouse
+P0016, Shoes X 16 ,CLOTHING,shoes,27120.08,16762.06,99,3.5,Sportzone
+P0017,Kids Pro 17,Clothing,Kids,19518.16,14862.98,143,,pak suppliers
+P0018,appliances classic 18,Home,Appliances,26094.6,15777.04,80,,BookHouse
+P0019, Cricket X 19 ,sports,Cricket,13427.91,11220.87,110,3.4,PAK SUPPLIERS
+P0020,Fiction Elite 20,BOOKS,Fiction,109637.65,85657.76,126,2.3,HOMEMART
+P0021,CRICKET BASIC 21,Sports,CRICKET,137106.33,117118.05,22,1.2,pak suppliers
+P0022,Skincare Max 22,beauty,SKINCARE,64141.8,40245.39,231,3.0,Stylehub
+P0023,FITNESS ELITE 23,sports,Fitness,104127.4,65910.37,67,2.4,homemart
+P0024,Skincare Plus 24,beauty,skincare,2881.56,2164.24,235,-1.0,TECHWORLD
+P0025, Appliances Basic 25 ,HOME,APPLIANCES,115889.33,97739.85,94,,Beautyplus
+P0026,FRAGRANCE MAX 26,Beauty,fragrance,105733.36,47644.89,197,4.6,BeautyPlus
+P0027,Fitness Elite 27,Sports,fitness,44840.2,35369.93,41,3.5,BeautyPlus
+P0028,SKINCARE PREMIUM 28,BEAUTY,Skincare,77453.1,66571.08,26,1.4,Beautyplus
+P0029,furniture max 29,Home,FURNITURE,55152.89,29168.73,287,3.8,homemart
+P0030,Kids X 30,clothing,Kids,36175.59,18127.62,297,4.5,HOMEMART
+P0031,Haircare Basic 31,Beauty,Haircare,48409.34,41344.96,141,1.2,Beautyplus
+P0032, Technology Max 32 ,BOOKS,TECHNOLOGY,-100.0,50282.69,240,3.8,sportzone
+P0033, Decor Max 33 ,HOME,Decor,120085.63,9999999.0,96,4.6,Pak Suppliers
+P0034, Mobile Max 34 ,electronics,Mobile,58907.03,31248.14,-10,1.7,Stylehub
+P0035,HAIRCARE PRO 35,BEAUTY,Haircare,74701.15,63028.86,150,2.7,BOOKHOUSE
+P0036,Decor Pro 36,home,Decor,63309.43,49506.02,149,1.8,TechWorld
+P0037,KIDS PREMIUM 37,Clothing,KIDS,62047.91,37492.86,248,3.4,Pak Suppliers
+P0038,Decor Classic 38,home,Decor,9999999.0,72869.07,87,4.2,HomeMart
+P0039, Decor Pro 39 ,Home,Decor,-100.0,,75,6.0,
+P0040,WOMEN PLUS 40,clothing,women,106915.92,61835.99,78,1.6,STYLEHUB
+P0041,audio premium 41,electronics,AUDIO,86391.51,56016.25,94,0.0,techworld
+P0042,makeup x 42,Beauty,Makeup,146714.37,75788.96,276,4.9,Sportzone
+P0043,Mobile Plus 43,electronics,MOBILE,60982.07,41146.9,234,4.7,BOOKHOUSE
+P0044,AUDIO CLASSIC 44,ELECTRONICS,Audio,97262.97,56704.37,293,3.7,Pak Suppliers
+P0045,FICTION PLUS 45,Books,FICTION,109880.26,93956.25,282,1.5,TechWorld
+P0046,Kitchen Pro 46,Home,Kitchen,67172.92,0.0,99,3.3,HOMEMART
+P0047,Education X 47,Books,Education,3871.02,2679.85,44,4.9,
+P0048, Shoes Pro 48 ,Clothing,Shoes,48004.79,34673.14,184,2.6,GLOBAL TRADERS
+P0049,Technology Premium 49,Books,technology,56238.26,32510.93,157,4.9,Stylehub
+P0050, Shoes X 50 ,clothing,Shoes,111358.39,70938.01,147,1.7,GLOBAL TRADERS
+P0051,FRAGRANCE MAX 51,beauty,fragrance,21365.37,15259.81,73,-1.0,
+P0052,football basic 52,SPORTS,Football,,9159.41,45,1.0,SportZone
+P0053,kitchen plus 53,home,Kitchen,83594.17,64335.01,102,1.7,global traders
+P0054, Technology Classic 54 ,Books,technology,6813.82,5599.68,252,6.0,PAK SUPPLIERS
+P0055,Men Classic 55,CLOTHING,MEN,-100.0,61687.54,241,1.5,sportzone
+P0056,Kitchen Elite 56,HOME,KITCHEN,74037.03,56233.3,9999,1.5,Sportzone
+P0057,furniture x 57,home,Furniture,90034.25,55172.25,289,2.7,SPORTZONE
+P0058,fragrance premium 58,Beauty,Fragrance,146151.68,119585.16,262,3.9,Techworld
+P0059, Education X 59 ,Books,education,87457.35,45107.15,69,2.4,techworld
+P0060, Business Premium 60 ,Books,business,63217.34,9999999.0,24,2.2,StyleHub
+P0061,CRICKET MAX 61,Sports,cricket,115083.14,61277.33,85,3.2,BEAUTYPLUS
+P0062,makeup premium 62,Beauty,Makeup,41083.12,31391.01,49,3.1,Beautyplus
+P0063,Men X 63,CLOTHING,MEN,20973.94,,210,2.4,bookhouse
+P0064,LAPTOP ELITE 64,ELECTRONICS,Laptop,23605.96,12971.5,286,3.5,STYLEHUB
+P0065, Appliances Plus 65 ,Home,Appliances,137446.66,69060.7,8,2.9,SportZone
+P0066, Makeup Premium 66 ,Beauty,makeup,21282.59,13809.68,88,3.8,TECHWORLD
+P0067,SKINCARE PLUS 67,BEAUTY,SKINCARE,9999999.0,28194.11,116,2.2,HomeMart
+P0068,men max 68,Clothing,men,64008.36,50781.71,39,1.1,pak suppliers
+P0069,FURNITURE PRO 69,Home,FURNITURE,29854.47,13875.07,-1,1.5,Sportzone
+P0070,Mobile Max 70,electronics,MOBILE,45596.05,20728.99,63,4.7,HOMEMART
+P0071,CRICKET MAX 71,sports,cricket,28124.88,17105.27,74,4.4,SPORTZONE
+P0072,football elite 72,Sports,Football,53154.39,44373.93,258,3.3,Stylehub
+P0073, Fitness Classic 73 ,Sports,Fitness,0.0,9999999.0,87,4.6,TECHWORLD
+P0074, Skincare X 74 ,BEAUTY,SKINCARE,138672.7,119842.99,187,3.8,BOOKHOUSE
+P0075, Furniture Basic 75 ,Home,furniture,27536.86,-50.0,217,1.9,HOMEMART
+P0076, Furniture X 76 ,Home,Furniture,114330.71,67618.17,56,3.1,PAK SUPPLIERS
+P0077,BUSINESS PREMIUM 77,books,Business,83791.25,39237.25,252,1.5,Sportzone
+P0078, Decor Elite 78 ,Home,decor,,85511.38,-1,2.6,global traders
+P0079,Men Premium 79,CLOTHING,Men,134265.82,,91,1.1,PAK SUPPLIERS
+P0080, Skincare Max 80 ,BEAUTY,Skincare,59757.28,,61,1.6,Global Traders
+P0081,SKINCARE PLUS 81,Beauty,skincare,111344.11,94819.8,33,2.5,homemart
+P0082,education max 82,books,Education,89446.64,80126.08,119,4.4,Pak Suppliers
+P0083, Business Basic 83 ,Books,Business,113567.29,92039.8,182,2.9,Global Traders
+P0084, Decor Max 84 ,home,decor,22532.43,14749.4,128,3.0,homemart
+P0085,Haircare Max 85,beauty,HAIRCARE,,-50.0,255,3.7,bookhouse
+P0086,Decor Max 86,Home,decor,23334.13,17031.23,39,3.6,Pak Suppliers
+P0087,KITCHEN CLASSIC 87,home,Kitchen,44387.66,29919.71,-10,2.4,
+P0088, Accessories X 88 ,electronics,Accessories,9999999.0,66516.25,161,4.4,pak suppliers
+P0089,furniture classic 89,HOME,Furniture,,3791.48,84,3.0,
+P0090,technology x 90,Books,TECHNOLOGY,73374.51,36630.16,283,3.7,Pak Suppliers
+P0091, Kitchen X 91 ,Home,kitchen,76249.41,47741.52,193,6.0,BEAUTYPLUS
+P0092,Business Plus 92,BOOKS,Business,9682.88,6930.12,187,2.4,techworld
+P0093,MAKEUP PREMIUM 93,Beauty,MAKEUP,57395.72,,210,2.4,Homemart
+P0094, Women Max 94 ,Clothing,women,97388.38,69792.34,156,1.5,Bookhouse
+P0095, Audio Basic 95 ,ELECTRONICS,Audio,6087.95,4541.58,290,3.1,Global Traders
+P0096,Fiction Premium 96,Books,Fiction,,74707.92,-10,3.3,Beautyplus
+P0097, Fitness Elite 97 ,SPORTS,Fitness,121344.82,60068.78,172,3.0,BeautyPlus
+P0098,KIDS X 98,Clothing,Kids,54818.48,35423.48,38,4.4,Homemart
+P0099,business basic 99,Books,Business,7605.94,6832.43,115,3.5,STYLEHUB
+P0100,skincare x 100,beauty,Skincare,88983.77,50988.97,218,1.8,Stylehub
+P0047,Education X 47,Books,Education,3871.02,2679.85,44,4.9,
+P0050, Shoes X 50 ,clothing,Shoes,111358.39,70938.01,147,1.7,GLOBAL TRADERS
+P0023,FITNESS ELITE 23,sports,Fitness,104127.4,65910.37,67,2.4,homemart
+P0059, Education X 59 ,Books,education,87457.35,45107.15,69,2.4,techworld
+P0042,makeup x 42,Beauty,Makeup,146714.37,75788.96,276,4.9,Sportzone
