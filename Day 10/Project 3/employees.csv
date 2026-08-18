@@ -1,0 +1,54 @@
+employee_id,employee_name,department,salary,hire_date,city,performance_score
+E001,Hassan Raza 1,Marketing,251372.0,2020-06-24,Peshawar,3.32
+E002,Ali Khan 2,CUSTOMER SUPPORT,46162.0,2019-01-10,,2.81
+E003,Sana Iqbal 3,OPERATIONS,9999999.0,2020-10-07,Peshawar,2.44
+E004,Ali Khan 4,Hr,89522.0,2024-12-08,,1.36
+E005,Sara Ahmed 5,IT,57955.0,2020-05-28,LAHORE,
+E006,Fatima Ali 6,CUSTOMER SUPPORT,0.0,2018-10-16,Quetta,1.02
+E007,Sara Ahmed 7,Finance,245730.0,2024-03-28,Peshawar,4.42
+E008,Bilal Shah 8,customer support,9999999.0,2025-07-25,islamabad,4.18
+E009,Ali Khan 9,MARKETING,308786.0,2023-06-25,ISLAMABAD,-1.0
+E010,Sana Iqbal 10,CUSTOMER SUPPORT,72149.0,2023-09-28,Karachi,3.14
+E011,Omar Farooq 11,finance,108236.0,2020-07-16,peshawar,2.02
+E012,Bilal Shah 12,Sales,206215.0,2022-02-24,quetta,1.57
+E013,Bilal Shah 13,Finance,276805.0,2019-12-02,Karachi,4.16
+E014,Omar Farooq 14,Finance,-50000.0,2025-04-16,multan,1.61
+E015,Omar Farooq 15,SALES,248996.0,2018-02-01,Peshawar,3.34
+E016,Bilal Shah 16,Sales,285121.0,2025-11-10,islamabad,4.46
+E017,Sara Ahmed 17,Marketing,,2018-09-14,quetta,1.22
+E018,Fatima Ali 18,FINANCE,311314.0,2022-03-20,Rawalpindi,
+E019,Usman Malik 19,SALES,321022.0,2022-01-26,Swabi,3.3
+E020,Hassan Raza 20,Marketing,,2025-05-07,lahore,4.23
+E021,Bilal Shah 21,FINANCE,55654.0,2022-02-08,QUETTA,-1.0
+E022,Usman Malik 22,,253379.0,2021-07-25,MULTAN,4.85
+E023,,customer support,180889.0,2019-02-18,MULTAN,
+E024,Fatima Ali 24,FINANCE,274888.0,2019-01-25,,2.83
+E025,Sara Ahmed 25,SALES,97325.0,2019-07-29,Lahore,4.75
+E026,Ali Khan 26,Sales,308840.0,2025-09-22,LAHORE,0.0
+E027,Sana Iqbal 27,Customer Support,332123.0,2020-02-25,faisalabad,3.28
+E028,Hamza Tariq 28,Operations,344164.0,2020-01-31,multan,1.73
+E029,Hassan Raza 29,IT,215981.0,2023-03-01,Multan,1.31
+E030,,Operations,159594.0,2020-02-08,Faisalabad,4.49
+E031,Omar Farooq 31,Customer Support,304098.0,2025-03-29,PESHAWAR,-1.0
+E032,Sana Iqbal 32,finance,69383.0,2023-08-27,MULTAN,3.69
+E033,Sana Iqbal 33,Operations,135232.0,2018-02-11,Peshawar,1.82
+E034,Usman Malik 34,it,345728.0,2024-10-05,Quetta,3.16
+E035,Ayesha Noor 35,It,99945.0,2025-10-01,Lahore,1.26
+E036,Ayesha Noor 36,IT,340628.0,2024-02-07,Sialkot,4.31
+E037,Ali Khan 37,Marketing,42177.0,2021-02-23,Lahore,1.19
+E038,Hamza Tariq 38,,255394.0,2021-11-12,swabi,2.24
+E039,Omar Farooq 39,Operations,43334.0,2019-03-11,Peshawar,1.17
+E040,Hassan Raza 40,FINANCE,209497.0,2018-01-02,Islamabad,4.34
+E041,Hamza Tariq 41,marketing,291084.0,2018-06-02,Sialkot,1.19
+E042,Hassan Raza 42,Marketing,64520.0,2019-08-09,Quetta,3.94
+E043,Omar Farooq 43,Sales,177204.0,2022-05-21,RAWALPINDI,2.58
+E044,Sara Ahmed 44,customer support,346888.0,2024-06-14,Karachi,3.07
+E045,Ayesha Noor 45,,308512.0,2022-09-17,Peshawar,-1.0
+E046,Sana Iqbal 46,IT,234435.0,2019-06-30,Multan,3.35
+E047,Fatima Ali 47,sales,251538.0,2025-11-09,Rawalpindi,2.56
+E048,Hamza Tariq 48,operations,284044.0,2018-09-30,Quetta,4.67
+E049,,HR,,2024-09-14,Multan,3.86
+E050,Omar Farooq 50,OPERATIONS,191841.0,2025-07-20,ISLAMABAD,3.76
+E050,Omar Farooq 50,OPERATIONS,191841.0,2025-07-20,ISLAMABAD,3.76
+E019,Usman Malik 19,SALES,321022.0,2022-01-26,Swabi,3.3
+E010,Sana Iqbal 10,CUSTOMER SUPPORT,72149.0,2023-09-28,Karachi,3.14
