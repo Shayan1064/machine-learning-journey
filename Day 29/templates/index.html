@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CIFAR-10 Image Classifier</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>CIFAR-10</h1>
+
+        <h2>AI Image Classifier</h2>
+
+        <p class="description">
+            Upload an image and let the CNN identify what it is.
+        </p>
+
+
+        <form method="POST"
+              enctype="multipart/form-data">
+
+            <div class="upload-box">
+
+                <input
+                    type="file"
+                    name="image"
+                    accept="image/*"
+                    required
+                >
+
+                <p>
+                    Choose an image
+                </p>
+
+            </div>
+
+
+            <button type="submit">
+                Predict Image
+            </button>
+
+        </form>
+
+
+        {% if prediction %}
+
+        <div class="result">
+
+            <p class="result-title">
+                Prediction
+            </p>
+
+            <h2>
+                {{ prediction }}
+            </h2>
+
+            <p class="confidence">
+                Confidence: {{ confidence }}%
+            </p>
+
+        </div>
+
+        {% endif %}
+
+
+        <div class="classes">
+
+            <p>Can recognize:</p>
+
+            <span>✈️ Airplane</span>
+            <span>🚗 Automobile</span>
+            <span>🐦 Bird</span>
+            <span>🐱 Cat</span>
+            <span>🦌 Deer</span>
+            <span>🐶 Dog</span>
+            <span>🐸 Frog</span>
+            <span>🐴 Horse</span>
+            <span>🚢 Ship</span>
+            <span>🚚 Truck</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
