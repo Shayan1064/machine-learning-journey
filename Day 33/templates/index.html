@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f7fc;
+            color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: white;
+            padding: 20px 8%;
+            border-bottom: 1px solid #e5eaf2;
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: 800;
+            color: #2563eb;
+        }
+
+        main {
+            width: 90%;
+            max-width: 850px;
+            margin: 65px auto;
+            flex: 1;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .heading h1 {
+            font-size: 38px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #172554;
+        }
+
+        .heading h1 span {
+            color: #2563eb;
+        }
+
+        .heading p {
+            color: #64748b;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 14px;
+            border: 1px solid #e5eaf2;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+        }
+
+        label {
+            display: block;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 220px;
+            padding: 15px;
+            border: 1px solid #dbe2ed;
+            border-radius: 9px;
+            background: #fafbfe;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 1.7;
+            resize: vertical;
+            outline: none;
+        }
+
+        textarea:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+        }
+
+        textarea::placeholder {
+            color: #94a3b8;
+        }
+
+        .input-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            color: #94a3b8;
+            font-size: 12px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 20px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 9px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        button:disabled {
+            opacity: 0.7;
+            cursor: wait;
+        }
+
+        .clear-btn {
+            width: auto;
+            margin: 0;
+            padding: 0;
+            background: none;
+            color: #64748b;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .clear-btn:hover {
+            background: none;
+            color: #2563eb;
+        }
+
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8faff;
+            border: 1px solid #e5eaf2;
+            border-radius: 10px;
+            min-height: 100px;
+        }
+
+        .result h3 {
+            font-size: 15px;
+            margin-bottom: 12px;
+            color: #172554;
+        }
+
+        #summary-text {
+            color: #475569;
+            font-size: 14px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            background: white;
+            border-top: 1px solid #e5eaf2;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        footer span {
+            color: #2563eb;
+            font-weight: 700;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 40px auto;
+            }
+
+            .heading h1 {
+                font-size: 30px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Text Summarizer</div>
+    </header>
+
+    <main>
+
+        <div class="heading">
+            <h1>Text <span>Summarizer</span></h1>
+            <p>
+                Turn long text into short, meaningful summaries
+                with the help of Artificial Intelligence.
+            </p>
+        </div>
+
+        <div class="card">
+
+            <form id="summarization-form">
+
+                <label for="dialogue-input">Enter Your Text</label>
+
+                <textarea
+                    id="dialogue-input"
+                    placeholder="Write or paste your text here..."
+                    required
+                ></textarea>
+
+                <div class="input-info">
+                    <span id="word-count">0 words</span>
+
+                    <button
+                        type="button"
+                        class="clear-btn"
+                        id="clear-btn"
+                    >
+                        Clear Text
+                    </button>
+                </div>
+
+                <button type="submit" id="summarize-btn">
+                    Generate Summary
+                </button>
+
+            </form>
+
+            <div class="result">
+                <h3>Your Summary</h3>
+
+                <p id="summary-text">
+                    Your generated summary will appear here.
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        Built by <span>Shayan Hassan</span> | AI Text Summarizer
+    </footer>
+
+    <script>
+
+        // Get HTML elements
+        const form = document.getElementById("summarization-form");
+        const input = document.getElementById("dialogue-input");
+        const wordCount = document.getElementById("word-count");
+        const summaryText = document.getElementById("summary-text");
+        const summarizeButton = document.getElementById("summarize-btn");
+        const clearButton = document.getElementById("clear-btn");
+
+
+        // Word counter
+        input.addEventListener("input", function () {
+
+            const words = input.value.trim().split(/\s+/).filter(Boolean);
+
+            wordCount.textContent = words.length + " words";
+
+        });
+
+
+        // Clear text
+        clearButton.addEventListener("click", function () {
+
+            input.value = "";
+            wordCount.textContent = "0 words";
+            summaryText.textContent = "Your generated summary will appear here.";
+
+            input.focus();
+
+        });
+
+
+        // Connect HTML with FastAPI
+        form.addEventListener("submit", async function (event) {
+
+            event.preventDefault();
+
+            const dialogue = input.value.trim();
+
+            if (!dialogue) {
+                alert("Please enter some text first.");
+                return;
+            }
+
+            summarizeButton.disabled = true;
+            summarizeButton.textContent = "Generating...";
+
+            summaryText.textContent = "Processing your text. Please wait...";
+
+            try {
+
+                const response = await fetch("/summarize/", {
+
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify({
+                        dialogue: dialogue
+                    })
+
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.detail || "Something went wrong.");
+                }
+
+                summaryText.textContent = data.summary || "No summary returned.";
+
+            }
+
+            catch (error) {
+
+                summaryText.textContent = "Error: " + error.message;
+
+            }
+
+            finally {
+
+                summarizeButton.disabled = false;
+                summarizeButton.textContent = "Generate Summary";
+
+            }
+
+        });
+
+    </script>
+
+</body>
+</html>
