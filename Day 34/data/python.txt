@@ -1,0 +1,108 @@
+Python Programming Notes
+1. What is Python?
+Python is a high-level, general-purpose programming language. It is easy to learn and used in web development, automation, data analysis, Artificial Intelligence, and Machine Learning.
+2. Variables
+Variables are used to store data.
+
+Example:
+name = "Shayan"age = 20course = "Machine Learning"
+
+
+
+3. Data Types
+Python has different data types:
+- int – Whole numbers (10, 20, 30)
+- float – Decimal numbers (3.14, 5.5)
+- str – Text ("Hello")
+- bool – True or False
+- list – Collection of items
+- tuple – Ordered, unchangeable collection
+- dict – Key-value pairs
+- set – Collection of unique values
+4. Operators
+Operators perform different operations.
+a = 10b = 5print(a + b)  # Additionprint(a - b)  # Subtractionprint(a * b)  # Multiplicationprint(a / b)  # Divisionprint(a % b)  # Modulus
+
+
+
+5. Conditional Statements
+Conditional statements help a program make decisions.
+marks = 75if marks >= 80:    print("Excellent")elif marks >= 50:    print("Pass")else:    print("Fail")
+
+
+
+6. Loops
+Loops are used to repeat code.
+
+For Loop:
+for number in range(1, 6):    print(number)
+
+
+
+While Loop:
+count = 1while count <= 5:    print(count)    count += 1
+
+
+
+7. Functions
+Functions are reusable blocks of code.
+def greet(name):    print("Hello", name)greet("Shayan")
+
+
+
+8. Lists
+Lists store multiple values in one variable.
+languages = ["Python", "Java", "C++"]languages.append("JavaScript")print(languages)
+
+
+
+9. Dictionaries
+Dictionaries store data in key-value pairs.
+student = {    "name": "Shayan",    "age": 20,    "course": "Machine Learning"}print(student["name"])
+
+
+
+10. Exception Handling
+Exception handling manages errors in a program.
+try:    number = int(input("Enter a number: "))    print(100 / number)except ValueError:    print("Invalid input")except ZeroDivisionError:    print("Cannot divide by zero")
+
+
+
+11. File Handling
+Python allows us to create, read, and write files.
+with open("notes.txt", "w") as file:    file.write("I am learning Python.")with open("notes.txt", "r") as file:    print(file.read())
+
+
+
+12. Object-Oriented Programming (OOP)
+OOP is a programming approach based on classes and objects.
+class Student:    def __init__(self, name):        self.name = name    def introduce(self):        print("My name is", self.name)student = Student("Shayan")student.introduce()
+
+
+
+13. Python Libraries
+Libraries provide ready-made functions and tools.
+Library	Purpose
+NumPy	Numerical calculations
+Pandas	Data analysis
+Matplotlib	Data visualization
+Scikit-learn	Machine Learning
+TensorFlow	Deep Learning
+PyTorch	Deep Learning
+Requests	HTTP requests
+
+14. Installing Libraries
+Use pip to install Python libraries.
+pip install numpy
+pip install pandas
+pip install matplotlib
+
+
+15. Good Programming Practices
+- Write clean and readable code.
+- Use meaningful variable names.
+- Practice coding regularly.
+- Understand errors instead of ignoring them.
+- Break large problems into smaller tasks.
+- Build practical projects.
+Keep Learning and Keep Coding! 🐍
